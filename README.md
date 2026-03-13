@@ -3,7 +3,7 @@
 **General Assembly Data Analytics Capstone | James Lai | February 2026**
 
 ## The Opportunity
-Audio features like energy, valence, acousticness and tempo are powerful predictors of emotion in music. Yet no free tool exists to convert these features into emotion tags for indie artists.
+Indie artists create great music. The problem is getting it heard and paid for.
 
 Spotify's 2024 royalty changes introduced a 1,000 stream threshold for tracks to generate recorded royalties, redistributing payments toward professional artists. For indie artists with large catalogs, many tracks will never reach this threshold through streaming alone.
 
@@ -70,3 +70,4 @@ Migration to Librosa following Spotify API access restrictions in November 2024,
 ## Connect
 - LinkedIn: [James Lai](https://www.linkedin.com/in/jameslaiwj/)
 - Tableau Public: [James Lai](https://public.tableau.com/app/profile/jameslaiwj/vizzes)
+- Portfolio: [James Lai](jameslaiwj.github.io)
