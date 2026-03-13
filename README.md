@@ -70,4 +70,4 @@ Migration to Librosa following Spotify API access restrictions in November 2024,
 ## Connect
 - LinkedIn: [James Lai](https://www.linkedin.com/in/jameslaiwj/)
 - Tableau Public: [James Lai](https://public.tableau.com/app/profile/jameslaiwj/vizzes)
-- Portfolio: [James Lai](jameslaiwj.github.io)
+- Portfolio: [James Lai](https://jameslaiwj.github.io)
