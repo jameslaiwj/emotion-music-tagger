@@ -44,37 +44,45 @@ __🏭 For the industry:__
 
 ---
 ## 🛠️ Tech Stack
-- Python (Pandas, Scikit-learn, Matplotlib)
-- Tableau
-- Kaggle Datasets
+| __Tool__ | __Usage__ | 
+| :--- | :--- | 
+| Python (Pandas, Scikit-learn, Matplotlib) | Data pipeline, modelling, visualisation |
+| Tableau | Interactive dashboard |
+| Kaggle Datasets | Training and validation data |
 
-## Dataset
-- Training: [278K Emotion Labeled Spotify Songs](https://www.kaggle.com/datasets/abdullahorzan/moodify-dataset/data)
+---
+## 📁 Dataset
+- __Training__: [278K Emotion Labeled Spotify Songs](https://www.kaggle.com/datasets/abdullahorzan/moodify-dataset/data)
   License: CC BY 4.0
-- Validation: [Spotify_1Million_Tracks](https://www.kaggle.com/datasets/amitanshjoshi/spotify-1million-tracks) License: ODbL, contents © Original Authors
+- __Validation__: [Spotify_1Million_Tracks](https://www.kaggle.com/datasets/amitanshjoshi/spotify-1million-tracks) License: ODbL, contents © Original Authors
 
-## Model
-Random Forest Classifier, selected over Logistic Regression for robustness to outliers, feature importance transparency and 91% classification accuracy.
+---
+## 🤖 Model
+__Random Forest Classifier__, selected over Logistic Regression for robustness to outliers, feature importance transparency and __91% classification accuracy__.
 
-## Dashboard
+---
+## 📈 Dashboard
 Interactive Tableau Dashboard with human-in-the-loop validation (Perfect / Acceptable / Error confidence tiers).
 
-[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/jameslaiwj/viz/Tableau_Interactive_Dashboard-Server/1_EmotionDistribution)
+👉 [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/jameslaiwj/viz/Tableau_Interactive_Dashboard-Server/1_EmotionDistribution)
 
-## Repository Contents
-- Jupyter Notebook: Data Pipeline, feature engineering and model training
-- Presentation PDF: From Studio to Screen (Full capstone slides)
+---
+## 📂 Repository Contents
+- 📓 Jupyter Notebook: Data Pipeline, feature engineering and model training
+- 📑 Presentation PDF: From Studio to Screen (Full capstone slides)
 
-## Data Source Acknowledgement
+---
+## 📜 Data Source Acknowledgement
 - 278K Emotion Labeled Spotify Songs: Licensed under CC BY 4.0. Source: Kaggle
 - 1M Spotify Tracks: ODbL License, contents © Original Authors. Source: Kaggle
 
-$\color{#D97706}{\text{This project is for educational purposes only.}}$
+> ⚠️ $\color{#D97706}{\text{This project is for educational purposes only.}}$
 
-## Next Steps
+---
+## 🚀 Next Steps
 Migration to Librosa following Spotify API access restrictions in November 2024, maintaining feature parity for continued free audio analysis.
 
-## Connect
-- LinkedIn: [James Lai](https://www.linkedin.com/in/jameslaiwj/)
-- Tableau Public: [James Lai](https://public.tableau.com/app/profile/jameslaiwj/vizzes)
-- Portfolio: [James Lai](https://jameslaiwj.github.io)
+## 🤝 Connect
+- 💼 LinkedIn: [James Lai](https://www.linkedin.com/in/jameslaiwj/)
+- 📊 Tableau Public: [James Lai](https://public.tableau.com/app/profile/jameslaiwj/vizzes)
+- 🌐 Portfolio: [James Lai](https://jameslaiwj.github.io)
