@@ -32,7 +32,7 @@ The goal is not to challenge existing models, but to apply audio feature analysi
 - Democratises access to tools currently reserved for major labels
 
 ## Methodology Notes & Assumptions
-- 110+ hours based on average 3 to 4 minute song length per 1,000 song catalog, accounting for listening, breaks, spreadsheet updates and spot-checking
+- 110+ hours based on average 3 to 4 minute average song length per 1,000 song catalog, accounting for listening, breaks, spreadsheet updates and spot-checking
 - Under 2 hours includes model runtime (~1 minute) plus human review of flagged tracks
 - Outliers retained in analysis to preserve genre diversity
 
