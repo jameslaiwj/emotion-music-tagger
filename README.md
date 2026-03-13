@@ -1,42 +1,49 @@
-# Emotion-Based Music Tagging Tool for Indie Artists
+## 🎵 Emotion-Based Music Tagging Tool for Indie Artists
 ### From Studio to Screen: A Roadmap for Indie Artists to Land Film & TV Placements
-**General Assembly Data Analytics Capstone | James Lai | February 2026**
+__General Assembly Data Analytics Capstone | James Lai | February 2026__
 
-## The Opportunity
+---
+## 🎯 The Opportunity
 Indie artists create great music. The problem is getting it heard and paid for.
 
 Spotify's 2024 royalty changes introduced a 1,000 stream threshold for tracks to generate recorded royalties, redistributing payments toward professional artists. For indie artists with large catalogs, many tracks will never reach this threshold through streaming alone.
 
-**Sync Licensing offers a direct alternative**, one placement can earn $500 to $5,000 regardless of stream count. But without emotion tags, catalogs remain invisible to music supervisors who search by mood.
+__Sync Licensing offers a direct alternative:__ one placement can earn $500 to $5,000 regardless of stream count. But without emotion tags, catalogs remain invisible to music supervisors who search by mood.
 
 This project bridges that gap using open-source machine learning and publicly available Spotify audio data from Kaggle.
 
-## Research Question
-Can open-source machine learning replicate commercial emotion tagging at >= 85% accuracy?
+---
+## ❓ Research Question
+> Can open-source machine learning replicate commercial emotion tagging at >= 85% accuracy?
 
-## Solution
-A Random Forest Classifier trained on ~278,000 labeled songs to predict single-precision emotion tags (Sad, Happy, Energetic, Calm) across any music catalog, regardless of release year or genre.
+---
+## 💡 Solution
+A Random Forest Classifier trained on ~278,000 labeled songs to predict single-precision emotion tags __(Sad, Happy, Energetic, Calm)__ across any music catalog, regardless of release year or genre.
 
 The goal is not to challenge existing models, but to apply audio feature analysis to a real-world problem: helping indie artists tag their catalogs for sync licensing opportunities, at zero cost.
 
-## Value Proposition
-**For Indie Artists:**
-- Tag 1,000 songs in under 2 hours vs 110+ hours manually
-- $0 cost vs commercial alternatives where pricing requires direct engagement or enterprise plans (e.g. Cyanite.ai, free tier is limited to 5 songs per month)
-- Works on any catalog regardless of release year
-- Full control over emotion categories, no vendor lock-in
+---
+## 📊 Value Proposition
+__🎸 For Indie Artists:__
+- ⏱️ Tag 1,000 songs in under 2 hours vs 110+ hours manually
+- 💰 $0 cost vs commercial alternatives where pricing requires direct engagement or enterprise plans (e.g. Cyanite.ai, free tier is limited to 5 songs per month)
+- 🗂️ Works on any catalog regardless of release year
+- 🔓 Full control over emotion categories, no vendor lock-in
 
-**For the industry:**
-- Music supervisors find songs faster through better-tagged databases
-- Sync platforms increase catalog discoverability
-- Democratises access to tools currently reserved for major labels
+---
+__🏭 For the industry:__
+- 🔍 Music supervisors find songs faster through better-tagged databases
+- 📈 Sync platforms increase catalog discoverability
+- 🌍 Democratises access to tools currently reserved for major labels
 
-## Methodology Notes & Assumptions
+---
+## 🔬 Methodology Notes & Assumptions
 - 110+ hours based on average 3 to 4 minute average song length per 1,000 song catalog, accounting for listening, breaks, spreadsheet updates and spot-checking
 - Under 2 hours includes model runtime (~1 minute) plus human review of flagged tracks
 - Outliers retained in analysis to preserve genre diversity
 
-## Tools Used
+---
+## 🛠️ Tech Stack
 - Python (Pandas, Scikit-learn, Matplotlib)
 - Tableau
 - Kaggle Datasets
